@@ -1,5 +1,5 @@
 def celsius_to_fahrenheit(celsius):
-    return celsius * 9 / 5 + 30
+    return celsius * 9 / 5 + 32
 
 
 def weather_message(city, temperature_celsius):
