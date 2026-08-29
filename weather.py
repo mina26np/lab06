@@ -2,6 +2,14 @@ def celsius_to_fahrenheit(celsius):
     return celsius * 9 / 5 + 32
 
 
+def humidity_comfort_index(humidity_percent):
+    if humidity_percent < 40:
+        return "dry"
+
+    # TODO: finish comfortable and humid cases
+    return "unknown"
+
+
 def weather_message(city, temperature_celsius):
     temperature_fahrenheit = celsius_to_fahrenheit(temperature_celsius)
 
